@@ -484,7 +484,6 @@ a:hover {
 .about .about-item .count {
   display: flex;
   text-align: center;
-  margin-right: 20px;
 }
 
 .about .about-item .count .counter-item {
@@ -1282,6 +1281,7 @@ a:hover {
   font-weight: 700;
   color: var(--primary-color);
 }
+
 .contact-section .section-title h2 {
   font-weight: 700;
   color: var(--dark);
@@ -1427,7 +1427,7 @@ a:hover {
   position: absolute;
   inset: 0;
   color: var(--white);
-  left: -18px;
+  left: -12px;
 }
 
 .footer-section .footer-item .pages-links li:hover a::before,
