@@ -47,6 +47,7 @@
 }
 
 @media (max-width: 600px) {
+
   .hero-section .owl-carousel .owl-nav button.owl-prev,
   .hero-section .owl-carousel .owl-nav button.owl-next {
     display: none;
@@ -54,6 +55,7 @@
 }
 
 @media (max-width: 375px) {
+
   .hero-section .owl-carousel .owl-nav button.owl-prev,
   .hero-section .owl-carousel .owl-nav button.owl-next {
     display: none;
@@ -85,6 +87,11 @@
     flex-direction: column;
   }
 
+  .about .about-item .count .counter-item {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
   .about .about-item .counter {
     justify-content: center;
     text-align: center;
@@ -103,7 +110,22 @@
   .video-section .video-item .btn-2 {
     padding: 8px;
   }
+
   .contact-section .contact-item .form-control {
     width: 280px;
+  }
+
+  .booking-start .booking-form a {
+    width: 100%;
+  }
+
+  .about .about-item .explore-btn a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .contact-section .contact-item button {
+    width: 100%;
   }
 }
