@@ -141,3 +141,12 @@ $(".slider-2").owlCarousel({
         },
     },
 });
+
+
+
+let today = new Date().toISOString().substr(0, 10);
+document.getElementById("dateInput1").value = today;
+
+
+let todays = new Date().toISOString().substr(0, 10);
+document.getElementById("dateInput2").value = today;
